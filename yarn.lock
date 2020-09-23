@@ -1987,6 +1987,32 @@
     npmlog "^4.1.2"
     pretty-hrtime "^1.0.3"
 
+"@storybook/react@*", "@storybook/react@^6.0.21":
+  version "6.0.21"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.0.21.tgz#68f8a318e9940305b06eb894896624a35a9868b0"
+  integrity sha512-L3PcoBJq5aK1aTaJNfwsSJ8Kxgcyk0WknN4TDqhP7a+oXmuMY1YEi96hEvQVIm0TBCkQxs61K70/T7vlilEtHg==
+  dependencies:
+    "@babel/preset-flow" "^7.0.0"
+    "@babel/preset-react" "^7.0.0"
+    "@storybook/addons" "6.0.21"
+    "@storybook/core" "6.0.21"
+    "@storybook/node-logger" "6.0.21"
+    "@storybook/semver" "^7.3.2"
+    "@svgr/webpack" "^5.4.0"
+    "@types/webpack-env" "^1.15.2"
+    babel-plugin-add-react-displayname "^0.0.5"
+    babel-plugin-named-asset-import "^0.3.1"
+    babel-plugin-react-docgen "^4.1.0"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    lodash "^4.17.15"
+    prop-types "^15.7.2"
+    react-dev-utils "^10.0.0"
+    react-docgen-typescript-plugin "^0.5.2"
+    regenerator-runtime "^0.13.3"
+    ts-dedent "^1.1.1"
+    webpack "^4.43.0"
+
 "@storybook/react@^5.2.0":
   version "5.3.21"
   resolved "https://registry.yarnpkg.com/@storybook/react/-/react-5.3.21.tgz#f7f364d3d3adc70746a12cf8b6614952f41d4bd0"
@@ -2013,32 +2039,6 @@
     semver "^6.0.0"
     ts-dedent "^1.1.0"
     webpack "^4.33.0"
-
-"@storybook/react@^6.0.21":
-  version "6.0.21"
-  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-6.0.21.tgz#68f8a318e9940305b06eb894896624a35a9868b0"
-  integrity sha512-L3PcoBJq5aK1aTaJNfwsSJ8Kxgcyk0WknN4TDqhP7a+oXmuMY1YEi96hEvQVIm0TBCkQxs61K70/T7vlilEtHg==
-  dependencies:
-    "@babel/preset-flow" "^7.0.0"
-    "@babel/preset-react" "^7.0.0"
-    "@storybook/addons" "6.0.21"
-    "@storybook/core" "6.0.21"
-    "@storybook/node-logger" "6.0.21"
-    "@storybook/semver" "^7.3.2"
-    "@svgr/webpack" "^5.4.0"
-    "@types/webpack-env" "^1.15.2"
-    babel-plugin-add-react-displayname "^0.0.5"
-    babel-plugin-named-asset-import "^0.3.1"
-    babel-plugin-react-docgen "^4.1.0"
-    core-js "^3.0.1"
-    global "^4.3.2"
-    lodash "^4.17.15"
-    prop-types "^15.7.2"
-    react-dev-utils "^10.0.0"
-    react-docgen-typescript-plugin "^0.5.2"
-    regenerator-runtime "^0.13.3"
-    ts-dedent "^1.1.1"
-    webpack "^4.43.0"
 
 "@storybook/router@5.3.21":
   version "5.3.21"
@@ -2641,6 +2641,13 @@
   integrity sha512-gTH1kziacyF86FieOMV86OhTu6zhV9a3gzF1Pqxm1k3/SKIScML7YgBQS0xwSV0riAlcRkXZNqjSVdci5TiUdA==
   dependencies:
     "@storybook/addon-storyshots" "*"
+
+"@types/storybook__react@^5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-5.2.1.tgz#b5fd1612f2e5846b2f441725ea946bafd7ab9edb"
+  integrity sha512-p4QGO+VjEO3YxyWVHpPylNheA0JhStzoCg6RBTmdobrC0ZqLPEIIWu0pFkHlNkmGIiEKW2yDGFJooBe8M4Df0Q==
+  dependencies:
+    "@storybook/react" "*"
 
 "@types/tapable@*", "@types/tapable@^1.0.5":
   version "1.0.6"
