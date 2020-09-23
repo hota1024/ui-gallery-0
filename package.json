@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "storybook": "start-storybook -p 6006",
+    "build:storybook": "build-storybook -o build/storybook"
   },
   "dependencies": {
     "next": "9.5.3",
