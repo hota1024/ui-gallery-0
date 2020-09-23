@@ -1503,7 +1503,7 @@
     regenerator-runtime "^0.13.3"
     ts-dedent "^1.1.1"
 
-"@storybook/addon-storyshots@^6.0.21":
+"@storybook/addon-storyshots@*", "@storybook/addon-storyshots@^6.0.21":
   version "6.0.21"
   resolved "https://registry.yarnpkg.com/@storybook/addon-storyshots/-/addon-storyshots-6.0.21.tgz#31c528449fe02e48bcd8756f84697419c63ca0e2"
   integrity sha512-nWJlJ5uAUrnO2PLrsTKsLRbqXODH/9I7MaIRDFGgho3prqd8H7W5jksP0XCxa/SDRgmY3jJ+R1qCVnsRZV/Bow==
@@ -2634,6 +2634,13 @@
     "@storybook/addons" "^5.2.0"
     "@storybook/react" "^5.2.0"
     "@types/react" "*"
+
+"@types/storybook__addon-storyshots@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__addon-storyshots/-/storybook__addon-storyshots-5.3.1.tgz#3bf921bcf34265d239c7417e4bbd3d66aa3d41d3"
+  integrity sha512-gTH1kziacyF86FieOMV86OhTu6zhV9a3gzF1Pqxm1k3/SKIScML7YgBQS0xwSV0riAlcRkXZNqjSVdci5TiUdA==
+  dependencies:
+    "@storybook/addon-storyshots" "*"
 
 "@types/tapable@*", "@types/tapable@^1.0.5":
   version "1.0.6"
